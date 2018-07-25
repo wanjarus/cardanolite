@@ -5,9 +5,8 @@ const CardanoLiteLogo = () =>
     'svg',
     {
       xmlns: 'http://www.w3.org/2000/svg',
-      width: '2.5rem',
-      height: '2.5rem',
       viewBox: '0 0 66.52 66.67',
+      style: 'width: 2.5rem; height: 2.5rem;',
     },
     h('path', {
       color: '#ed1a77',
@@ -22,9 +21,7 @@ const VacuumlabsLogo = () =>
     {
       xmlns: 'http://www.w3.org/2000/svg',
       viewBox: '0 0 192.8 39.7',
-      height: '2rem',
-      width: '9.64rem',
-      style: 'enable-background:new 0 0 192.8 39.7;',
+      style: 'enable-background:new 0 0 192.8 39.7; ' + 'width: 9.64rem; height: 2rem;',
     },
     h('style', undefined, '.st1{fill:#242f3c}'),
     h(
@@ -139,9 +136,8 @@ const LinkIcon = () =>
     'svg',
     {
       xmlns: 'http://www.w3.org/2000/svg',
-      width: '2.5rem',
-      height: '2.5rem',
       viewBox: '0 0 26.458 26.458',
+      style: 'width: 2.5rem; height: 2.5rem;',
     },
     h('path', {
       d: 'M3.78 13.22v9.185h18.37v-6.68H19.923v4.454H6.007V6.262H10.46V4.036H3.78z',
@@ -157,9 +153,8 @@ const CopyIcon = () =>
     'svg',
     {
       xmlns: 'http://www.w3.org/2000/svg',
-      width: '2rem',
-      height: '2rem',
       viewBox: '0 0 512 562',
+      style: 'width: 2rem; height: 2rem;',
     },
     h('path', {
       d:
@@ -172,9 +167,8 @@ const AdaIcon = ({width, height}) =>
     'svg',
     {
       xmlns: 'http://www.w3.org/2000/svg',
-      width,
-      height,
       viewBox: '0 0 36.993 44',
+      style: `width: ${width}; height: ${height};`,
     },
     h('path', {
       d:
